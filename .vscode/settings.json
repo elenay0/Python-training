@@ -1,0 +1,36 @@
+{
+	"python.terminal.activateEnvironment": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.extraPaths": [
+		"./",
+		"${workspaceFolder}",
+		"${workspaceFolder}/.venv"
+	],
+	"spellright.language": [
+		"Bulgarian",
+		"English (American)"
+	],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"html"
+	],
+	"files.autoGuessEncoding":true,
+	"[markdown]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on",
+			"other": "on"
+		},
+		"files.encoding": "utf8"
+	}
+}
+
+
+
