@@ -439,7 +439,148 @@
 # ele= range(10)[4]
 # print('\nFifth element', ele)
 
-fruits= ['apple', 'banana', 'cherry','date']
+# fruits= ['apple', 'banana', 'cherry','date']
 
-for i in range(len(fruits)):
-    print(fruits[i])
+# for i in range(len(fruits)):
+#     print(fruits[i])
+
+# # def fun()
+# #     print('welcome to GFG')
+
+# # fun()
+
+# def fun():
+#     print('welcome to GFG')
+
+# fun()
+
+
+# def add(num1: int, num2: int) -> int:
+#     '''Add two numbers'''
+#     num3= num1+num2
+#     return num3
+# num1, num2= 5, 15
+# ans= add(num1, num2)
+# print(f'The addition of {num1} and {num2} is {ans}.')
+
+
+# def is_prime(n):
+#     if n in [2,3]:
+#         return True
+#     if (n==1) or (n%2==0):
+#         return False
+#     r=3
+#     while r*r<=n:
+#         if n%r==0:
+#             return False
+#         r+=2
+#     return True
+# print(is_prime(78), is_prime(79))
+
+# def evenOdd(x):
+#     if (x%2==0):
+#         print('even')
+#     else:
+#         print('odd')
+
+# evenOdd(2)
+# evenOdd(5)
+
+# def myFun(x, y=50):
+#     print("x: ", x)
+#     print("y: ", y)
+
+# myFun(10)
+
+# def student(firstname, lastname):
+#     print(firstname, lastname)
+
+# student(firstname='Elena', lastname='yordanova')
+# student(lastname='yordanova', firstname='Elena')
+
+
+# def nameAge(name, age):
+#     print('Hi, I am ', name)
+#     print('I am', age , 'years old')
+
+# print('Case 1:')
+# nameAge('Elena', 18)
+
+# print('\nCase 2:')
+# nameAge(18,'Elena')
+
+# def myFun(*argv):
+#     for arg in argv:
+#         print(arg)
+
+# myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
+
+# def myFun(**kwargs):
+#     for key, value in kwargs.items():
+#         print('%s==%s' % (key, value))
+
+# myFun(first='Geeks', mid='for', last='Geeks')
+
+
+# def evenOdd(x):
+#     """Function to check if the number is even or odd"""
+#     if (x%2==0):
+#         print('even')
+#     else:
+#         print('odd')
+# print(evenOdd.__doc__)
+
+# def f1():
+#     s= 'I love Geeks for Geeks '
+#     def f2():
+#         print(s)
+#     f2()
+
+# f1()
+
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+    
+# print(factorial(4))
+
+# def square_value(num):
+#     '''This function returns the square value of the entered number'''
+#     return num**2
+
+# print(square_value(5))
+# print(square_value(-4))
+
+# def myFun(x):
+#     x[0]=20
+
+# list=[10, 11, 12, 13, 14, 15]
+# myFun(list)
+# print(list)
+
+# def myFun(x):
+#     x= [20,30,40]
+
+# list=[10, 11, 12, 13, 14, 15]
+# myFun(list)
+# print(list)
+
+# def myFun(x):
+#     x=20
+
+# x=10
+# myFun(x)
+# print(x)
+
+# def swap(x, y):
+#     temp = x
+#     x=y
+#     y=temp
+
+# x=2
+# y=3
+# swap(x,y)
+# print(x)
+# print(y)
