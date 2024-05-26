@@ -584,3 +584,169 @@
 # swap(x,y)
 # print(x)
 # print(y)
+
+
+#Syntax: Class Definition
+
+# class classname:
+    #statement
+
+#Syntax: Object Definition
+
+# obj= classname()
+# print(obj.atrr)
+
+# Demonstation of instantiation:
+
+
+# class Dog:
+
+#     attr1='mammal'
+#     attr2='dog'
+
+#     def fun(self):
+#         print("I'm a", self.attr1)
+#         print("I'm a", self.attr2)
+
+# Roger=Dog()
+
+# print(Roger.attr1)
+# Roger.fun()
+
+
+# class GFG:
+#     def __init__(self, name, company):
+#         self.name=name
+#         self.company = company
+    
+#     def show(self):
+#         print("Hello my name is" + self.name + "and I" + "work in" + self.company +".")
+
+# obj= GFG ( "John", "GeeksforGeeks")
+# obj.show()
+
+
+# class GFG:
+#     def __init__(somename, name, company):
+#         somename.name = name
+#         somename.company = company
+
+#     def show(somename):
+#         print("Hello my name is " + somename.name + " and I work in " + somename.company+ ".")
+
+# obj = GFG ("John", "GeeksforGeeks")
+# obj.show()
+
+
+# class Person:
+#     def __init__(self, name):
+#         self.name= name
+    
+#     def say_hi(self):
+#         print('Hello, my name is', self.name)
+        
+# p= Person('Nikhil')
+# p.say_hi()
+
+
+# class GFG:
+#     def __init__(self, name, company):
+#         self.name=name
+#         self.company=company
+
+#     def __str__ (self):
+#         return f"My name is {self.name} and I work in {self.company}."
+    
+# my_obj= GFG ("John", "GeeksforGeeks")
+# print(my_obj)
+
+
+# class Dog:
+
+#     animal= "dog"
+
+#     def __init__(self, breed, color):
+#         self.breed = breed
+#         self.color = color
+
+# Rodger = Dog("Pug", "brown")
+# Buzo = Dog("Vulldog", "black")
+
+# print("Rodger details:")
+# print("Rodger is a", Rodger.animal)
+# print("Breed:", Rodger.breed)
+# print("Color:", Rodger.color)
+
+# print("\nBuzo details:")
+# print("Buzo is a", Buzo.animal)
+# print("Breed:", Buzo.breed)
+# print("Color", Buzo.color)
+
+
+# class Dog:
+#     animal ='Dog'
+#     def __init__(self, breed):
+       
+#         self.breed = breed
+   
+#     def setColor(self, color):
+#         self.color= color
+   
+#     def getColor(self):
+#         return self.color
+
+
+# Rodger= Dog ("pug")
+# Rodger.setColor("brown")
+# print(Rodger.getColor())
+
+    
+# class Person:
+#     def __init__ (self, name, age):
+#         self.name = name
+#         self.age = age
+# person1 = Person("Maria Popova", 25)
+# person2 = Person("Ivan Petrov", 30)
+
+# print(person1.name)
+# print(person1.age)
+# print(person2.name)
+# print(person2.age)
+
+
+# class Person:
+#     name = "Anonymous"
+#     age = 100
+
+# maria = Person()
+# petar = Person()
+
+# print(maria.name, maria.age)
+# print(petar.name, petar.age)
+# print(Person.name, Person.age)
+
+# class Person:
+#     count=0
+
+#     def __init__(self, name):
+#         self.name = name
+#         Person.count += 1
+
+# maria = Person("Maria Popova")
+# petar = Person("Petar Ivanov")
+# ivan = Person("Ivan Petrov")
+
+# print(Person.count)
+
+
+# class Person:
+#     count=0
+
+#     def __init__(self, name):
+#         self.name =  name
+#         Person.count += 1
+
+# maria = Person("Maria Popova")
+
+# print(maria.__dict__)
+
